@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-witgh, initial-scale=1.0">
+    <title>Технобаза - техника которую выбираю сам </title>
+    <link href="css/style.css" rel="stylesheet">
+</head> 
+<body>
+    <header>
+        <h1>Технобаза</h1>
+        <p>Техника, которую выбираю сам</p>
+    </header>
+
+    <button class="menu-toggle" onclick="document.querySelector('nav').classList.toggle('show')">☰ Меню</button>
+
+    <nav>
+        <a href="index.html">Главная</a>
+        <a href="My Setup.html">Мой сетап</a>
+        <a href="Reviews.html">Обзоры</a>
+        <a href="#">Гайды</a>
+        <a href="#">Контакты</a>
+    </nav>
+
+    <div class="container">
+        <section class="full-article">
+            <h2>👤 Обо мне</h2>
+            <p>Привет! Меня зовут Коди, я техноэнтузиаст, стример и автор этого блога. Люблю делиться личным опытом и рассказывать о гаджетах, которые реально работают. На <strong>Технобазе</strong> ты найдёшь обзоры, гайды и мой сетап, собранный с умом и без переплат.</p>
+          </section>
+             
+        <section class="article-preview">
+            <h2><a href="My Setup.html">Мой стримерский сетап 2025 </a></h2>
+            <p>Собираешься начать стримить, но не знаешь, что нужно из техники? Я собрал свой идеальный стартовый набор и делюсь опытом.</p>
+        </section>
+        
+        <h2>
+          <a href="#" onclick="openModal(`<h2>Наушники Logitech G435</h2>
+            <p>Радиочастотная гарнитура Logitech G435 LIGHTSPEED создана для игр и прослушивания музыки. Подключение к ПК или другим устройствам осуществляется на основе технологии LIGHTSPEED и интерфейса Bluetooth беспроводным способом. Динамики с диаметром мембраны 50 мм совместно с технологией Dolby Atmos гарантируют формирование чистого и насыщенного звука</p>
+            <h3>Преимущества</h3>
+            <ul>
+              <li>1</li>
+              <li>2</li>
+              <li>3</li>
+              <li>4</li>
+            </ul>
+            <img src='img/logitechG435.jpg' alt='Наушники Logitech G435' style='width:100%; border-radius:10px; margin:15px 0;'>`); return false;">Наушники Logitech G435</a>
+        </h2>
+
+        <h2>
+          <a href="#" onclick="openModal(`<h2>Лучшие клавиатуры для геймеров в 2025</h2>
+            <p>Как выбрать механическую клавиатуру, которая будет не только красивой и удобной, но и действительно улучшит вашу работу или игры? Это вопрос, который терзает всех, кто когда-либо искал инструмент для набора текста или точной игры. В 2025 году клавиатуры стали чем-то большим, чем просто набор клавиш. Это и возможность кастомизации и множество настроек, которые вроде бы не важны, однако сильно облегчают жизнь. В этом рейтинге мы собрали 10 интересных механических клавиатур, которые подходят для любых задач, от компактных моделей для минималистов до полнофункциональных решений для геймеров. Осталось только выбрать!</p>
+            <table>
+              <tr><th>Название модели</th><th>Интерфейс</th><th>Кол-во кнопок</th></tr>
+              <tr><td>Logitech POP Keys</td><td>USB, Bluetooth</td><td>85</td></tr>
+              <tr><td>Nuphy AIR75</td><td>USB,Bluetooh</td><td>84</td></tr>
+              <tr><td>Epomaker EP108</td><td>USB</td><td>108</td></tr>
+              <tr><td>Red Square Keyrox TKL Hyperion</td><td>USB</td><td>87</td></tr>
+              <tr><td>Cooler Master MK730</td><td>USB</td><td>87</td></tr>
+            </table>
+            <a href='https://price.ru/blog/10-luchshikh-mekhanicheskikh-klaviatur-v-2025-godu/#lwptoc'> Источник</a>
+            `); return false;">Лучшие клавиатуры для геймеров в 2025</a>
+        </h2>
+
+          <section class="article-preview">
+            <h2><a href="#"> test</a></h2>
+            <p>Подборка топовых клав для игр, от бюджетных до премиум. Что взять?</p>
+          </section>
+
+          <section class="article-preview">
+            <h2><a href="#">test2</a></h2>
+            <p>Подборка топовых клав для игр, от бюджетных до премиум. Что взять?</p>
+          </section>
+
+          <section class="article-preview">
+            <h2><a href="#">test</a></h2>
+            <p>Подборка топовых клав для игр, от бюджетных до премиум. Что взять?</p>
+          </section>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <div id="modal-text"></div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+
+    <footer>
+        <p>© 2025 Технобаза — сделано с любовью к технике </p>
+    </footer>
+</body>  
+</html>
